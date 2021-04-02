@@ -16,13 +16,25 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#userIn {
+  width: 30vw;
+  margin-left: 35vw;
+  margin-right: 35vw;
+}
+
 .center {
   width: 100%;
   text-align: center;
 }
 
-#userIn {
-  width: 30vw;
-  margin-left: 35vw;
-  margin-right: 35vw;
+.input {
+  margin-bottom: 10px;
+}
+
+select {
+  width: 60%;
+}
+
+#txtOut {
+  pointer-events: none;
 }
